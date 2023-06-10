@@ -24,5 +24,5 @@ const quotes = [
     }
   };
 
-  console.log("function was deployed successfully!!")
+  console.log("function was deployed successfully!!");
   

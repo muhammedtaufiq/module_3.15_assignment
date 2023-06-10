@@ -372,5 +372,28 @@ If parse-json: true and secret value is a valid stringified JSON object, it will
 we add console.log to our index.js file to output this message "function was deployed successfully!!".
 this message will be captured in *Cloudwatch* logs
 
+*IMAGES*
+
+# STEP 14-push to git to start the CICD workflow again
+git add .
+git commit -m "yourmessage"
+git push
+
+
+# STEP 15- curl the below, or open in browser to see its successfully logging
+
+*FIRST*
+https://upkblf2yxc.execute-api.ap-southeast-1.amazonaws.com/
+
+*SECOND*
+
+see the out put in cloudwatch.
+Cloudwatch/log groups/aws/Lambda/Taufiq-module-3-15-assignment-dev.api
+
+see screen grab below
+
+
+
+
 
 
