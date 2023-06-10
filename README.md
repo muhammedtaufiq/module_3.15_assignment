@@ -357,6 +357,11 @@ Last 2 lines will print the secrets
 
 > app1/dev/\*
 
+*parse-json:*
+
+If parse-json: true and secret value is a valid stringified JSON object, it will be parsed and flattened. Each of the key value pairs in the flattened JSON object will become individual secrets. The original secret name will be used as a prefix.
+
+
 # STEP 12-Push the changes to GitHub to start the workflow
 ![Picture29](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/b130f0f5-14f4-4ea8-95df-c26fe22bfc23)
 
