@@ -363,5 +363,14 @@ If parse-json: true and secret value is a valid stringified JSON object, it will
 
 
 # STEP 12-Push the changes to GitHub to start the workflow
-![Picture29](https://github.com/muhammedtaufiq/3.13_assignment/assets/24953052/b130f0f5-14f4-4ea8-95df-c26fe22bfc23)
+
+
+*IMAGES*
+
+# STEP 13-Adding logging to the serverless application
+
+we add console.log to our index.js file to output this message "function was deployed successfully!!".
+this message will be captured in *Cloudwatch* logs
+
+
 
